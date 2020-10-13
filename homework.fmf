@@ -1,0 +1,33 @@
+﻿[FormFile]
+Version=CSPro 7.5
+Name=HOMEWORK_FF
+Label=homework
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\homework.dcf
+  
+[Form]
+Name=FORM000
+Label=homework Level
+Level=1
+Size=0,0
+  
+  
+[EndForm]
+  
+[Level]
+Name=CAPI_LEVEL
+Label=homework Level
+  
+[Group]
+Required=Yes
+Name=HOMEWORK_LEVEL_FORM
+Label=homework Level
+Form=1
+LogicControl=No
+Max=1
+[EndGroup]
+  

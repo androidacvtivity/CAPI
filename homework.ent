@@ -1,0 +1,27 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=HOMEWORK
+Name=HOMEWORK
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\homework.ent.apc
+[Message]
+File=.\homework.ent.mgf
+[Help]
+File=.\homework.ent.qsf
+[Forms]
+File=.\homework.fmf
+[Dictionary Types]
+Dict-Type=.\homework.dcf,Input,.\homework.fmf

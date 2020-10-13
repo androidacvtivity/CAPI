@@ -1,0 +1,30 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=CAPI Dictionary
+Name=CAPI_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=715B611636249DD74381F2C6FB5DB53D45672CE927BF9C36C8EBC94E341B5AAA
+
+[Level]
+Label=CAPI Level
+Name=CAPI_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Household ID
+Name=HOUSEHOLD_ID
+Start=2
+Len=4
+ZeroFill=Yes
+
+[Record]
+Label=Household Members
+Name=HOUSEHOLD_MEMBERS
+RecordTypeValue='1'
+MaxRecords=20
+RecordLen=5
