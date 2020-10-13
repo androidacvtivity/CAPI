@@ -13,8 +13,9 @@ File=.\homework.dcf
 Name=FORM000
 Label=homework Level
 Level=1
-Size=0,0
+Size=1769,490
   
+Item=HOUSEHOLD_ID
   
 [EndForm]
   
@@ -29,5 +30,17 @@ Label=homework Level
 Form=1
 LogicControl=No
 Max=1
+  
+[Field]
+Name=HOUSEHOLD_ID
+Position=237,35,294,55
+Item=HOUSEHOLD_ID,CAPI_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=79,38,163,54
+Text=Household ID
+ 
 [EndGroup]
   

@@ -27,7 +27,7 @@ Label=Household Members
 Name=HOUSEHOLD_MEMBERS
 RecordTypeValue='1'
 MaxRecords=20
-RecordLen=112
+RecordLen=113
 
 [Item]
 Label=First Name
@@ -123,9 +123,22 @@ Value=8;Other Relative
 Value=9;Non-Relative
 
 [Item]
+Label=Literate
+Name=LITERATE
+Start=63
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Literate
+Name=LITERATE_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
 Label=Language Spoken
 Name=LANGUAGE_SPOKEN
-Start=63
+Start=64
 Len=28
 DataType=Alpha
 
@@ -163,14 +176,14 @@ Value='27                          ';Wu (吳語)
 [Item]
 Label=Language Spoken (Other)
 Name=LANGUAGE_SPOKEN_OTHER
-Start=91
+Start=92
 Len=20
 DataType=Alpha
 
 [Item]
 Label=Main Language
 Name=MAIN_LANGUAGE
-Start=111
+Start=112
 Len=2
 DataType=Alpha
 
